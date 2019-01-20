@@ -571,50 +571,6 @@ QPushButton:hover {
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QPushButton" name="key_OnOff">
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	font: 12pt &quot;MS Shell Dlg 2&quot;;
-	font-weight: bold;
-    color: #000040;
-    border: 2px solid #aaaaaa;
-    border-radius: 6px;
-    background-color: #e8e8e8;
-    width: 60px;
-	height: 40px;
-}
-QPushButton:hover {
-    border: 3px solid #888888;
-}</string>
-       </property>
-       <property name="text">
-        <string>On/Off</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QPushButton" name="key_Mode">
-       <property name="styleSheet">
-        <string notr="true">QPushButton {
-	font: 12pt &quot;MS Shell Dlg 2&quot;;
-	font-weight: bold;
-    color: #000040;
-    border: 2px solid #aaaaaa;
-    border-radius: 6px;
-    background-color: #e8e8e8;
-    width: 60px;
-	height: 40px;
-}
-QPushButton:hover {
-    border: 3px solid #888888;
-}</string>
-       </property>
-       <property name="text">
-        <string>Mode</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2">
       <widget class="QPushButton" name="key_Start">
        <property name="styleSheet">
         <string notr="true">QPushButton {
@@ -636,7 +592,29 @@ QPushButton:hover {
        </property>
       </widget>
      </item>
-     <item row="0" column="3">
+     <item row="0" column="2">
+      <widget class="QPushButton" name="key_Mode">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+    color: #000040;
+    border: 2px solid #aaaaaa;
+    border-radius: 6px;
+    background-color: #e8e8e8;
+    width: 60px;
+	height: 40px;
+}
+QPushButton:hover {
+    border: 3px solid #888888;
+}</string>
+       </property>
+       <property name="text">
+        <string>Mode</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
       <widget class="QPushButton" name="key_Stop">
        <property name="styleSheet">
         <string notr="true">QPushButton {
@@ -655,6 +633,28 @@ QPushButton:hover {
        </property>
        <property name="text">
         <string>Stop</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="key_OnOff">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+    color: #000040;
+    border: 2px solid #aaaaaa;
+    border-radius: 6px;
+    background-color: #e8e8e8;
+    width: 60px;
+	height: 40px;
+}
+QPushButton:hover {
+    border: 3px solid #888888;
+}</string>
+       </property>
+       <property name="text">
+        <string>On/Off</string>
        </property>
       </widget>
      </item>
@@ -1435,7 +1435,7 @@ QPushButton:hover {
      <x>0</x>
      <y>0</y>
      <width>1275</width>
-     <height>21</height>
+     <height>17</height>
     </rect>
    </property>
   </widget>

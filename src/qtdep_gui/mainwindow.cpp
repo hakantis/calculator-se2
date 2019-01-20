@@ -112,8 +112,8 @@ void MainWindow::on_key_CE_pressed() { fireKeyEvent( GuiFacade::KeyEvt::CE ); }
 void MainWindow::on_key_Comma_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Comma ); }
 void MainWindow::on_key_Div_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Div ); }
 void MainWindow::on_key_EQ_pressed() { fireKeyEvent( GuiFacade::KeyEvt::EQ ); }
-void MainWindow::on_key_Start_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Start ); }
-void MainWindow::on_key_Stop_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Stop ); }
+void MainWindow::on_key_Start_pressed() { ui->key_OnOff->show(); fireKeyEvent( GuiFacade::KeyEvt::Start ); }
+void MainWindow::on_key_Stop_pressed() { ui->key_OnOff->hide(); fireKeyEvent( GuiFacade::KeyEvt::Stop ); }
 void MainWindow::on_key_Mode_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Mode ); }
 void MainWindow::on_key_Minus_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Minus ); }
 void MainWindow::on_key_Mul_pressed() { fireKeyEvent( GuiFacade::KeyEvt::Mul ); }
